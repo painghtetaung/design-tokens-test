@@ -1,0 +1,25 @@
+{
+  "global": {
+    "TokeBtnBorderRadius": {
+      "value": "8",
+      "type": "borderRadius"
+    }
+  },
+  "ButtonToken": {
+    "ButtonTokenPrimary": {
+      "value": "#512CE7",
+      "type": "color"
+    },
+    "BtnTokenBorderWidth": {
+      "value": "8",
+      "type": "borderWidth"
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global",
+      "ButtonToken"
+    ]
+  }
+}
