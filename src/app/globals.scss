@@ -8,8 +8,8 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
   --testDesignToken: #{$color-base-gray-light};
-  --buttonBgColorPrimary: #{$button-token-button-token-primary};
-  --buttonBorderRadius: #{$global-toke-btn-border-radius}px;
+  --buttonBgColorPrimary: #{$button-token-button-color-primary};
+  --buttonBorderRadius: #{$button-token-button-radius-primary}px;
 }
 
 @media (prefers-color-scheme: dark) {
