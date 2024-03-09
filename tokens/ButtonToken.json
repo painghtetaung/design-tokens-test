@@ -6,13 +6,13 @@
     }
   },
   "ButtonToken": {
-    "ButtonTokenPrimary": {
-      "value": "#4a0edb",
+    "button-color-primary": {
+      "value": "#e90202",
       "type": "color"
     },
-    "BtnTokenBorderWidth": {
-      "value": "8",
-      "type": "borderWidth"
+    "button-radius-primary": {
+      "value": "10",
+      "type": "borderRadius"
     }
   },
   "$themes": [],
