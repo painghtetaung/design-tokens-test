@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+// import {COLOR_BASE_GRAY_LIGHT} from "./build/web/tokens";
 
 const config: Config = {
   content: [
@@ -13,6 +14,12 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      backgroundColor: {
+        btnPrimary: "var(--buttonBgColorPrimary)",
+      },
+      borderRadius: {
+        primaryRadius: "var(--buttonBorderRadius)",
+      }
     },
   },
   plugins: [],

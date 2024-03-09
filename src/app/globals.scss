@@ -1,3 +1,4 @@
+@import "build/web/tokens";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,6 +7,9 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --testDesignToken: #{$color-base-gray-light};
+  --buttonBgColorPrimary: #{$button-token-button-token-primary};
+  --buttonBorderRadius: #{$global-toke-btn-border-radius}px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,12 +22,14 @@
 
 body {
   color: rgb(var(--foreground-rgb));
+  //color: $color-base-gray-light;
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  //background: $color-base-gray-light;
 }
 
 @layer utilities {
