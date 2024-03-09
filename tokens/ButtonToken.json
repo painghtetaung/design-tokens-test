@@ -7,11 +7,11 @@
   },
   "ButtonToken": {
     "button-color-primary": {
-      "value": "#e90202",
+      "value": "#1d05db",
       "type": "color"
     },
     "button-radius-primary": {
-      "value": "10",
+      "value": "30",
       "type": "borderRadius"
     }
   },
