@@ -15,11 +15,18 @@
       "type": "borderRadius"
     }
   },
+  "Surface": {
+    "Primary-Button": {
+      "value": "{button-color-primary}",
+      "type": "color"
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "global",
-      "ButtonToken"
+      "ButtonToken",
+      "Surface"
     ]
   }
 }
